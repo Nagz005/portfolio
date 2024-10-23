@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00a8e8;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #00a8e8;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #00a8e8;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+h3:hover {
+    color: #00a8e8;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.8;
+}
+
+p:hover {
+    color: #222;
+    transition: color 0.3s ease-in-out;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #555;
+}
+
+ul li:hover {
+    color: #00a8e8;
+    transition: color 0.3s ease;
+}
+
+footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.contact:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f8faff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.projects:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #e8f7ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.skills:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
+
+/* Areas of Interest Section */
+.areas-of-interest {
+    background-color: #e3f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.areas-of-interest:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
+
+/* Languages Section */
+.languages {
+    background-color: #e0f0ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.languages:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
+
+/* Hobbies Section */
+.hobbies {
+    background-color: #d8eaff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.hobbies:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
+
+/* Declaration Section */
+.declaration {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.declaration:hover {
+    background-color: #00a8e8;
+    color: #fff;
+}
